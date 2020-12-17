@@ -3,14 +3,13 @@ The content of learning web development needs to organize, including front-end i
 技术总结，经常回顾，查漏补缺！！!
 
 # Web前端技术概览
-- [Web Front End Stack](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md) 最全网络开发技术总结！！!还有基于此文构建的非常有用的[网络技术概览图](https://rawgit.com/unruledboy/WebFrontEndStack/master/ux/WebFrontEndStack.htm)
+- [Web Front End Stack](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md)  最全网络开发技术总结！！! 还有基于此文构建的非常有用的[网络技术概览图](https://rawgit.com/unruledboy/WebFrontEndStack/master/ux/WebFrontEndStack.htm)
 
-# .NET技术大系概览
-- [.NET技术大系概览](https://github.com/unruledboy/DotNetStack)
+# .NET技术概览
+- [.NET技术大系概览](https://github.com/unruledboy/DotNetStack)  还有基于此文构建的非常有用的[.NET技术概览图](https://rawgit.com/unruledboy/WebFrontEndStack/master/ux/WebFrontEndStack.htm)
 
-# 数据库开发大系技术栈
-- [数据库开发大系技术栈](https://www.cnblogs.com/unruledboy/p/DatabaseStack.html)  包含300多技术点.
-https://github.com/unruledboy/DatabaseStack
+# 数据库开发概览
+- [数据库开发大系技术栈](https://github.com/unruledboy/DatabaseStack)  包含300多技术点.
 
 # 爆栈 (全领域网络软件开发！！！)
 - [全领域网络软件开发](http://overflowstack.github.io/)
