@@ -16,7 +16,7 @@ The content of learning web development needs to organize, including front-end i
 # 系统开发概览
 - [Development](https://github.com/unruledboy/DevelopmentStack) 还有基于此文构建的非常有用的[系统开发概览图](https://rawgit.com/unruledboy/DevelopmentStack/master/ux/DevelopmentStack.htm)
 
-# 前端学习
+# 前端学习有用链接
 - [一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)  前端大神 [@寒冬winter](https://github.com/wintercn) 执笔，值得放在第一条。
 - [前端学习路线图](https://github.com/unruledboy/WebFrontEndStack) 文章解释说明 [Web前端开发大系概览 （前端开发技术栈）](http://www.cnblogs.com/unruledboy/p/WebFrontEndStack.html)
 - [前端技能汇总 Frontend Knowledge Structure --github](https://github.com/JacksonTian/fks) 由阿里前端两位杰出的工程师维护的关于前端的知识图谱 [@JacksonTian](https://github.com/JacksonTian) [@jayli（拔赤）](https://github.com/jayli/)
