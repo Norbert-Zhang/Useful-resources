@@ -2,7 +2,8 @@
 The content of learning web development needs to organize, including front-end ideas, frameworks etc.
 技术总结，经常回顾，查漏补缺！！!
 
-Web前端技术栈 (Web Front End Stack; 最全网络开发技术总结！！！): https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md
+# Web前端技术概览 
+[Web Front End Stack; 最全网络开发技术总结！！!](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md)
 
 .NET技术大系概览 （迄今为止最全的.NET技术栈）:
 https://github.com/unruledboy/DotNetStack
