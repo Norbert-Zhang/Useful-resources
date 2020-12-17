@@ -1,0 +1,168 @@
+
+1. Array.prototype.includes:
+ //Add Support for includes
+if (!Array.prototype.includes) {
+    console.log("Adding support for Array.prototype.includes()");
+    Array.prototype.includes = function (val) {
+        for (var i = 0; i < this.length; i++) {
+            if (val == this[i]) return true;
+        }
+        return false;
+    };
+}
+
+2. ajax.always : 
+            $.ajax({
+                    type: "GET",
+                    url: util.exchangeRateConfig.url
+                })
+                .done(function(data, textStatus, jqXHR) {
+               
+                })
+                .fail(function(jqXHR, textStatus, errorThrown) {
+              
+                }).always(function() {
+      
+                });
+
+3. zur Sub-Seite springen
+            var pId = _getUrlParameter("CPPLLID");
+            if (pId) {
+                // Alle Filters (Text-Suche, spezifische Filter und normale Filter) zurücksetzen.
+                _resetAllFilters(true);
+                // Aktualisieren die Daten für die Seite "Übersicht".
+                _updateSearchData();
+                util.spa.router.navigate(util.spa.routes[1].route + "?ffId=" + "" + "&ffv=" + ""); // zur Seite "Übersicht" springen
+                util.spa.router.navigate(util.spa.routes[2].route + "?pId=" + pId); // zur Seite "Detail-Ansicht" springen
+            }
+
+     /**
+        * Erfassen den Parameter aus URL.
+        */
+        function _getUrlParameter(sParam) {
+            var sPageURL = window.top.window.location.search.substring(1);
+            var sURLVariables = sPageURL.split('&');
+            for (var i = 0; i < sURLVariables.length; i++) {
+                var sParameterName = sURLVariables[i].split('=');
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? "" : decodeURIComponent(sParameterName[1]);
+                }
+            }
+        };
+
+4.  function _sortComparerByName(a, b) {
+            if (a.name == util.state.data.festName) return 1;
+            if (b.name == util.state.data.festName) return -1;
+            var nameA = a.name.toUpperCase();
+            var nameB = b.name.toUpperCase();
+            if (nameA < nameB) return -1;
+            if (nameA > nameB) return 1;
+            return 0;
+        };
+
+5.function _getElementById(elements, eId) {
+            if (elements && elements.length > 0) {
+                for (var i = 0; i < elements.length; i++) {
+                    var element = elements[i];
+                    if (element.id == eId) return element;
+                }
+            }
+            return null;
+        };
+
+5. Filter nach der spezifischen Textsuchfelder:
+                            if (product.id && product.id.toString().indexOf(st) !== -1) {
+                                matchCount++;
+                            }
+                            else if (product.name && product.name.toLocaleLowerCase().indexOf(st) !== -1) {
+                                matchCount++;
+                            }
+                            else {
+                                var props = Object.getOwnPropertyNames(product), prop, val, p;
+                                for (p = 0; p < props.length; p++) {
+                                    prop = props[p];
+                                    if (prop && prop.length && prop.indexOf("pd_") === 0) {
+                                        val = product[prop];
+                                        if (val && val.length && val.replace(/<br>/gi, "").toLocaleLowerCase().indexOf(st) !== -1) {
+                                            matchCount++;
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+
+6. var currentYear = new Date().getFullYear();
+     var dateFrom = kendo.toString(new Date(currentYear, 0, 1), "u");
+     var dateTo = kendo.toString(new Date(currentYear, 11, 31, 23, 59, 59), "u");
+
+7. //neues Fenster oeffnen
+     gScript.OpenWindow($(this).data("file-url"), null, gScript.defaultWinWidth, gScript.defaultWinHeight, false, true);
+    //window.open($(this).data("file-url"), $(this).data("name"), "width=" + width + ",height=" + height + ",left=" + left + ",top=" + top + ",scrollbars=yes,resizable=yes,status=yes,toolbar=no");
+
+8. Copying text to clipboard with JavaScript:
+       function _copyTextToClipboard(text) {
+            if (!navigator.clipboard) {
+                _fallbackCopyTextToClipboard(text);
+                return;
+            }
+            navigator.clipboard.writeText(text).then(function () {
+                console.log('Async: Copying to clipboard was successful!');
+            }, function (err) {
+                console.error('Async: Could not copy text: ', err);
+            });
+        }
+       function _fallbackCopyTextToClipboard(text) {
+            var textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.setAttribute('readonly', '');
+            textArea.style.position = "fixed";  //avoid scrolling to bottom
+            textArea.style.left = '-9999px';
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                var successful = document.execCommand('copy');
+                var msg = successful ? 'successful' : 'unsuccessful';
+                console.log('Fallback: Copying text command was ' + msg);
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+            }
+            document.body.removeChild(textArea);
+        }
+
+Source Url: https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
+
+9. Funktion fuer den Aufruf nach dem Schliessen des Dateineingabe-Dialogs erstellen (in Custom Page)
+$(document).ready(function () {
+        gScript.options.additionalMethod = function (cId, cIId) {
+            iq.csp.afterExhibitionDataChanged(cId, cIId);
+        };
+    });
+
+10. Updating address bar with new URL without hash or reloading the page!!
+window.top.window.history.pushState({ id: 'AL CL' + params.id }, 'Home | ' + params.name, gScript.options.appUrl + "web/home/q/?CPPCL=" + params.id + "&CPPCLN=" + encodeURIComponent(params.name));
+How to update a URL without reloading the page using vanilla JavaScript:
+https://gomakethings.com/how-to-update-a-url-without-reloading-the-page-using-vanilla-javascript/
+
+11. Exclude properties from serialization
+<XmlIgnore> _
+<ScriptIgnore> _
+<JsonIgnore> _
+<IgnoreDataMember> _
+<EditorBrowsable(EditorBrowsableState.Never)>
+
+<NonSerialized>
+
+
+12. Show/Hide Loading Icon.
+gScript.ShowLoadingIn($("#pageBody"), gScript.loadingDelay2, true);
+gScript.HideLoading();
+
+
+13. Hide the empty line.
+$(".pageBody .page tr.pdr").each(function () { if (!$(this).text()) $(this).hide(); });
+
+
+
+
+
