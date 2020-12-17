@@ -7,13 +7,13 @@ The content of learning web development needs to organize, including front-end i
 
 # .NET技术概览
 - [.NET技术大系概览](https://github.com/unruledboy/DotNetStack)  还有基于此文构建的非常有用的[.NET技术概览图](https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm)
+- [.NET的前世今生与将来](http://kayow.com/)
 
 # 数据库开发概览
 - [数据库开发大系技术栈](https://github.com/unruledboy/DatabaseStack)  包含300多技术点. 还有基于此文构建的非常有用的[数据库开发技术概览图](https://rawgit.com/unruledboy/DatabaseStack/master/ux/DatabaseStack.htm)
 
-# 爆栈 (全领域网络软件开发！！！)
-- [全领域网络软件开发](http://overflowstack.github.io/)
-http://kayow.com/
+# 系统开发概览
+- [Development](https://github.com/unruledboy/DevelopmentStack) 还有基于此文构建的非常有用的[系统开发概览图](https://rawgit.com/unruledboy/DevelopmentStack/master/ux/DevelopmentStack.htm)
 
 # 前端学习
 - [一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)  前端大神 [@寒冬winter](https://github.com/wintercn) 执笔，值得放在第一条。
