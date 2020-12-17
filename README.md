@@ -6,7 +6,7 @@ The content of learning web development needs to organize, including front-end i
 - [Web Front End Stack](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md)  最全网络开发技术总结！！! 还有基于此文构建的非常有用的[网络技术概览图](https://rawgit.com/unruledboy/WebFrontEndStack/master/ux/WebFrontEndStack.htm)
 
 # .NET技术概览
-- [.NET技术大系概览](https://github.com/unruledboy/DotNetStack)  还有基于此文构建的非常有用的[.NET技术概览图](https://rawgit.com/unruledboy/WebFrontEndStack/master/ux/WebFrontEndStack.htm)
+- [.NET技术大系概览](https://github.com/unruledboy/DotNetStack)  还有基于此文构建的非常有用的[.NET技术概览图](https://rawgit.com/unruledboy/DotNetStack/master/ux/DotNetStack.htm)
 
 # 数据库开发概览
 - [数据库开发大系技术栈](https://github.com/unruledboy/DatabaseStack)  包含300多技术点.
