@@ -1,5 +1,6 @@
 # Description
-The content of learning web development needs to organize, including front-end ideas, frameworks etc...
+The content of learning web development needs to organize, including front-end ideas, frameworks etc.
+技术总结，经常回顾，查漏补缺！！!
 
 # 前端学习
 - [一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)  前端大神 [@寒冬winter](https://github.com/wintercn) 执笔，值得放在第一条。
