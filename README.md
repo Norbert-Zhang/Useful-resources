@@ -2,10 +2,10 @@
 The content of learning web development needs to organize, including front-end ideas, frameworks etc.
 技术总结，经常回顾，查漏补缺！！!
 
-# Web前端技术概览 
-[Web Front End Stack; 最全网络开发技术总结！！!](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md)
+# Web前端技术概览
+- [Web Front End Stack](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md) 最全网络开发技术总结！！!
 
-.NET技术大系概览 （迄今为止最全的.NET技术栈）:
+# .NET技术大系概览
 https://github.com/unruledboy/DotNetStack
 https://www.cnblogs.com/unruledboy/p/NetStack.html
 
@@ -36,63 +36,3 @@ http://kayow.com/
 > 参考:[浏览器和服务器实现跨域（CORS）判定的原理](https://segmentfault.com/a/1190000003710973)
 
 
-## 开发调试
-- [Chrome DevTools Overview](https://developer.chrome.com/devtools) 官方介绍
-- Chrome开发者工具不完全指南 [基础篇](http://web.jobbole.com/82558/)、[进阶篇](http://web.jobbole.com/82562/)、[性能篇](http://web.jobbole.com/82576/)、[性能进阶篇](http://web.jobbole.com/82590/)、[移动篇](http://web.jobbole.com/82612/)、[插件篇](http://web.jobbole.com/82701/) 从头介绍如何使用 chrome 进行 web 开发中的调试工作，包括 source、console、性能、profile、移动端调试、常用插件等的介绍，适合想更全面的了解强大的chrome 工具的同学。
-- [Collection of links to assist you in web design and development](https://github.com/noahbuscher/Inspire) 前端设计、框架工具、打包工具、团队协作等一些资料工具使用。
-- [Google Developers - PageSpeed Tools](https://developers.google.com/speed/pagespeed/?csw=1) The PageSpeed tools analyze and optimize your site following web best practices.
-- [chrome 控制台使用指南](http://frontenddev.org/column/chrome-development-tools-using-guide/) 包含 JS 内存泄露排查、alert 弹窗、Dom 断点调试、Timeline 介绍等，很是方便。
-
-## javascript
-- [MDN javascript资料](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) firefox js 资料库
-- [ECMAScript 6](https://zh.wikipedia.org/wiki/ECMAScript) 新一代的 javascript 标准，带来很多先进的理念和特性，查看阮一峰写的电子书《[ECMAScript 6入门](http://es6.ruanyifeng.com/)》进行学习，或者查看 mozilla 的系列文章《[ES6 In Depth Articles](https://hacks.mozilla.org/category/es6-in-depth/)》 中文翻译由CSDN极客头条[探秘ES6](http://www.csdn.net/tag/%E6%8E%A2%E7%A7%98es6/news)。
-- [JavaScript Patterns Collection](http://shichuan.github.io/javascript-patterns/) js 的开发规模式或者说推荐的写法。
-- [fettool 整理的一些 js 组件库](https://github.com/nieweidong/fetool#浏览端-js) 比较实用的 js 库推荐
-
-## html
-- [极客学院-h5学习计划系列视频](http://e.jikexueyuan.com/html5.html?hmsr=osc_word_html5_07.01)
-- [A list of everything that could go in the <head> of your document](https://github.com/joshbuchea/HEAD) 整理的 HEAD 标签里面的内容，很全面，赞 :+1:
-
-## bootstrap
-- [AdminLTE - 后台管理模板](https://github.com/almasaeed2010/AdminLTE/) star 1W+
-# 性能优化
-- [书籍：高性能网站建设](http://book.douban.com/subject/26411563/)，[高性能网站-Web开发者性能优化最佳实践](http://book.douban.com/subject/4719162/)
-- [书籍：High Performance Browser Networking](http://book.douban.com/subject/25856314/) 全书以性能优化为主线，从TCP、UDP 和TLS 协议讲起，解释了如何针对这几种协议和基础设施来优化应用。然后深入探讨了无线和移动网络的工作机制。最后，揭示了HTTP 协议的底层细节，同时详细介绍了HTTP 2.0、 XHR、SSE、WebSocket、WebRTC 和DataChannel 等现代浏览器新增的具有革命性的新能力。（-豆瓣简介）
-- [Web性能优化：What? Why? How?](http://www.cnblogs.com/dojo-lzz/p/4591446.html) 文章从`减少http请求`、`页面内优化`、`启用缓存`、`减少下载量`、`网络优化`等几个方面进行阐述如何让页面加载更快！
-- [毫秒必争，前端网页性能最佳实践法则](http://www.cnblogs.com/developersupport/p/webpage-performance-best-practices.html)  从网页内容、服务器端、图片、cookie、css、js等角度阐述优化的实践内容。
-- [Google - PageSpeed Insights规则](https://developers.google.com/speed/docs/insights/rules)
-- [Yahoo - Best Practices for Speeding Up Your Web Site](https://developer.yahoo.com/performance/rules.html) ， [中文翻译](http://dudo.org/archives/2008051211216.html)
-- [Web前端优化最佳实践及工具集锦](http://www.csdn.net/article/2013-09-23/2817020-web-performance-optimization) 对上两条 google 和 yahoo 理论的实践文章，并提供一些调试优化的前端工具。
-- [网页性能管理详解-阮一峰](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html) 详述页面加载的原理机制及优化场景。
-
-## 工具利器
-- [Postman](https://www.getpostman.com/apps)- POST 接口调试终结者，异常强大的接口调试工具。
-- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) Google的工具很是方便，极力推荐。
-- [CanIuse](http://caniuse.com/) - 前端必备，查看浏览器对各种新特性的兼容情况。"Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers."
-- [chrome-浏览器插件](https://github.com/nieweidong/fetool#chrome-浏览器插件) 一些比较实用的 chrome 浏览器插件
-- [阿里测](http://www.alibench.com/) 帮助分析排查页面的性能优化点
-- [爱前端-前端测试服务](http://itest.aliyun.com/index.htm) UI自动化测试、多浏览器检测（js\css脚本错误等）、页面坏死链检测等，方便在多浏览器的兼容性测试过程中快速发现定位问题，节约时间。或者这个也不错 [前端测试服务](http://fts.aliyun.com/index.htm?spm=0.0.0.0.IDYSmX)
-- [BrowserStack](https://www.browserstack.com/) 免费的很好用，通过截图来反馈多浏览器下的兼容性，免费的速度很快，强烈推荐使用这个。
-- [阿里移动质量中心](http://mqc.aliyun.com/?spm=0.0.0.0.id9E8r) 安卓、ios、h5兼容性测试，可以很方便的适配多种安卓终端、ios的多个版本吧兼容性等，很是方便。
-- [JavaScript 堆内存分析新工具 OneHeap](http://www.html-js.com/article/3091)、[OneProfile](http://www.html-js.com/article/3083)
-- [web以及移动端安全测试工具-HiTest 安全测试服务](http://sts.aliyun.com/index.html?spm=0.0.0.0.boVYwN)
-
-## 常用 CDN 服务
-- [Bootstrap 中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)  各种组件，很全面， 主要同步于 [cdnjs](https://github.com/cdnjs/cdnjs) 仓库，又拍云提供存储服务，你所使用的组件基本上都能在这里找到，强烈推荐。
-- [七牛云存储开放静态文件CDN](http://www.staticfile.org)
-- [百度静态资源公共库](http://cdn.code.baidu.com/)
-- ~~[360 网站卫士常用前端公共库 CDN 服务](http://libs.useso.com/)~~
-- [CDNJS](http://www.cdnjs.com) 国内依托又拍云的服务[ CDNJS.cn ](http://www.cdnjs.cn/) 速度还可以。
-- [CDN公共库-插件库](http://www.jq22.com/cdn/)
-- [jQuery CDN](http://code.jquery.com/)
-- [又拍云常用JavaScript库CDN服务](http://jscdn.upai.com/)
-
-# 前后端交互
-- [Rest - Representational state transfer](https://en.wikipedia.org/wiki/Representational_state_transfer) wikipedia 介绍，[中文在此](https://zh.wikipedia.org/wiki/REST)
-- [理解 RESTFul 架构](http://gold.xitu.io/entry/56c29d7079bc4400540773e4?utm_source=leopost&utm_medium=20160221&utm_campaign=weibo) 或者简单的阅读[阮一峰 - 理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-- [怎样向妻子解释 REST 架构](https://d4dilip.wordpress.com/2011/10/18/how-i-explained-rest-to-my-wife/) 很生动形象，剪短的英文，比喻恰当。:+1:
-- [撰写合格的REST API：设计准则](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0) 从RFC一致性、接口的安全性、丰富的接口文档、访问限制等方面进行阐述，通俗易懂，很是推荐阅读。
-- [Restful Api 安全设计参考](http://drops.wooyun.org/web/9737?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-- [Web 研发模式演变 - 为什么要进行前后端分离？](https://github.com/lifesinger/blog/issues/184) [@玉伯](https://github.com/lifesinger) 前端模块化开发[sea.js](http://seajs.org/docs/#intro)的维护者，推荐阅读。
-- [基于NodeJS的前后端分离(Taobao UED)](http://ued.taobao.org/blog/2014/04/full-stack-development-with-nodejs/) 淘宝 @常胤  整理的对前后端交互的问题进行说明和提出解决方法，值得推荐阅读。
-- [HTTP API design guide](https://github.com/interagent/http-api-design) 这篇指南介绍描述了 HTTP+JSON API 的一种设计模式，一直试图找出一种良好的、一致的、显而易见的 API 设计方法，而并不是所谓的"最终/理想模式"。中文翻译版见[HTTP API 设计指南(http-api-design-ZH_CN)](https://github.com/ZhangBohan/http-api-design-ZH_CN)
