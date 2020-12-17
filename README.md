@@ -1,12 +1,7 @@
-# 说明
-学习 WEB 需要的内容整理，包括前端思想、框架、css、js（框架）、http协议等等 ……
+# Description
+The content of learning web development needs to organize, including front-end ideas, frameworks etc...
 
-# HTTP 协议
-## HTTP Response Code
-- [理解HTTP/304响应](http://www.cnblogs.com/ziyunfei/archive/2012/11/17/2772729.html)  English version [Understanding HTTP/304 Responses](http://www.telerik.com/blogs/understanding-http-304-responses)
 
-# HTTPS
-什么是HTTPS？ [zh-wikipedia 超文本传输安全协议](http://zh.wikipedia.org/zh/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE) （目前大陆已经被封需要翻墙才能阅读，可以阅读英文版[en-wikipedia HTTPS](http://en.wikipedia.org/wiki/HTTPS)）
 
 [HTTPS 连接的最初几秒都发生了什么 (The First Few Milliseconds of an HTTPS Connection)](http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html) 中文翻译参考 [InfoQ HTTPS 连接最初的若干毫秒](http://www.infoq.com/cn/articles/HTTPS-Connection-Jeff-Moser)
 
