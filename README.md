@@ -3,6 +3,9 @@ The content of learning web development needs to organize, including front-end i
 
 技术总结，经常回顾，查漏补缺！！!
 
+# 网络开发技术概览
+- [Web Development - A Practical Guide](https://www.youtube.com/watch?v=0pThnRneDjw)  How to be a Full Stack Developer!!
+
 # Web前端技术概览
 - [Web Front End Stack](https://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md)  最全网络开发技术总结！！! 还有基于此文构建的非常有用的[网络技术概览图](https://rawgit.com/unruledboy/WebFrontEndStack/master/ux/WebFrontEndStack.htm)
 
